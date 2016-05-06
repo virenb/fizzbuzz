@@ -7,10 +7,14 @@
 	<script src="js/app.js"></script>
 </head>
 <body>
-	Fizzbuzz exercise! Check console!
+	<p>Fizzbuzz exercise! Either click Prompt link or enter a number in below textbox and press enter. Check console!</p>
 	<div>
-		<input type="text" name="usernum" placeholder="Enter number">
-  		<input type="button" value="Submit">
+		<a href="#" onclick='fBuzz(parseInt(prompt("Enter a num"))); return false;'>Prompt - Click Here</a>
+
+		<form action="">
+		<input type="text" name="usernum" class="usernumber" placeholder="Enter number">
+		</form>
+  		
 	</div>
 </body>
 </html>
